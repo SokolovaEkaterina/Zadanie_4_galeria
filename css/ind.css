@@ -1,0 +1,31 @@
+.grid-contoiner
+{
+    display: grid;
+    grid-template-rows: 2fr 2fr 2fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "d1 d2 d3"
+}
+.my_button {
+    width: 120px;
+    height: 35px;
+    text-align: center
+  
+  }
+.flex-contoiner
+{
+    display: flex;
+}
+
+.d1
+{
+    grid-area: d1;
+}
+.d2
+{
+    grid-area: d2;
+}
+.d3
+{
+    grid-area: d3;
+}
